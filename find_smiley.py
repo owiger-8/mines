@@ -3,7 +3,7 @@ import time
 
 # --- CONFIGURATION ---
 SMILEY_IMAGE_PATH = 'images/facesmile.png'
-CONFIDENCE_LEVEL = 0.7# Try lowering this to 0.7 if it still fails
+CONFIDENCE_LEVEL = 0.7
 # -------------------
 
 print("--- Vision Debugger Running ---")
