@@ -9,18 +9,15 @@ import math
 from collections import namedtuple, deque
 from PIL import Image
 
-# --- ZOOM CONFIGURATION ---
-# YOU MUST UPDATE THESE VALUES AFTER ZOOMING YOUR BROWSER TO 200%
 CELL_SIZE_AT_ZOOM = 30 
 FACE_TO_BOARD_X_OFFSET = 470
 FACE_TO_BOARD_Y_OFFSET = 100
 
-# --- Standard Configuration ---
+
 BOARD_WIDTH = 30
 BOARD_HEIGHT = 16
 NUM_EPISODES = 10000
 
-# RL Agent parameters
 EPS_START = 0.9
 EPS_END = 0.05
 EPS_DECAY = 2000
@@ -29,8 +26,6 @@ GAMMA = 0.99
 LR = 1e-4
 TAU = 0.005
 
-# --- Environment Setup ---
-# A high confidence level is BEST. It forces you to have good images.
 CONFIDENCE_SETTING = 0.1
 
 IMAGE_MAP = {
